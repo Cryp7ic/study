@@ -1,1 +1,1 @@
-Exam study notes
+Study notes
