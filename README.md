@@ -1,1 +1,1 @@
-Study notes & documentations
+Study notes & resources
