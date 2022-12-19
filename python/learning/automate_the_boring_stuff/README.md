@@ -24,11 +24,6 @@
 - and, or, not same as &&, || in Java
 
 
-#### “Truthy” and “Falsey” Values
-When used in conditions, 0, 0.0, and '' are considered False. Makes code easier to read
-- ex. `while not name` is the same as `while not name != ''`
-- ex. `if numOfGuests` is the same as `if numOfGuests != 0`
-
 #### For Loop
 - `for i in list` - same as foreach loop. Iterates through everything in the list
 - `for i in range(len(list)):` iterate through indexes of list
@@ -65,6 +60,12 @@ increment index i++ as `i += 1`
 * The **continue** statements are used inside loops. When the program execution reaches a **continue** statement, the program execution immediately jumps back to the start of the loop and reevaluates the loop's condition. (This is also what happens when the execution reaches the end of the loop.)
 
 > **Note:** If you ever run a program that has a bug causing it to get stuck in an infinite loop, press **CTRL-C** or select **Shell > Restart Shell** from IDLE's menu. This will send a **KeyboardInterrupt** error to your program and cause it to stop immediately.
+
+
+#### “Truthy” and “Falsey” Values
+When used in conditions, 0, 0.0, and '' are considered False. Makes code easier to read
+- ex. `while not name` is the same as `while not name != ''`
+- ex. `if numOfGuests` is the same as `if numOfGuests != 0`
 
 #### Exit program
 `sys.exit()`
