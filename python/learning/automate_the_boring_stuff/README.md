@@ -67,6 +67,12 @@ The return value from range(4) is a list-like value that Python considers simila
 `i` represents the object of the list at that index. Like list[0], list [1]... `i` can be any variable name
 First number in range is inclusive, second number exclusive
 
+```
+print('My name is')
+for i in range(5):
+    print('Jimmy Five Times (' + str(i) + ')')
+```
+
 #### Exit program
 `sys.exit()`
 
