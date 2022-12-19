@@ -52,6 +52,13 @@ First number in range is inclusive, second number exclusive
 #### While loop
 You can make a block of code execute over and over again using a while statement. The code in a *while* clause will be executed as long as the while statement's condition is *True*
 
+```
+spam = 0
+while spam < 5:
+print('Hello, world.')
+spam = spam + 1
+```
+
 increment index i++ as `i += 1`
 
 
