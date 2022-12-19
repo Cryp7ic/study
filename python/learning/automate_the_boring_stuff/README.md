@@ -86,6 +86,20 @@ output:
 8
 ```
 
+You can use a negative number for the step argument to make the for loop count down instead of up.
+```
+for i in range(5,-1,-1):
+```
+This for loop would have the following output:
+```
+5
+4
+3
+2
+1
+0
+```
+
 > **Note:** You can use break and continue inside for loops as well. The continue statement will continue to the next value of the for loop's counter, as if the program execution has reached the end of the loop and returned to the start. You can use **continue** and **break** only inside **while** and **for** loops.
 
 #### Exit program
