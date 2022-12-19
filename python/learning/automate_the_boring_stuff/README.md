@@ -102,6 +102,14 @@ This for loop would have the following output:
 
 > **Note:** You can use break and continue inside for loops as well. The continue statement will continue to the next value of the for loop's counter, as if the program execution has reached the end of the loop and returned to the start. You can use **continue** and **break** only inside **while** and **for** loops.
 
+#### Importing Modules
+
+All Python programs can call a basic set of functions called *built-in functions*, including the print(), input(), and len() functions. Python also comes with a set of modules called the *standard library*.
+Before you can use the functions in a module, you must import the module with an *import* statement.
+* The *import* keyword
+* The name of the module
+* Optionally, more module names, as long as they are separated by commas
+
 #### Exit program
 `sys.exit()`
 
