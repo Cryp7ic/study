@@ -110,6 +110,10 @@ Before you can use the functions in a module, you must import the module with an
 * The name of the module
 * Optionally, more module names, as long as they are separated by commas
 
+**From import Statements**
+An alternative form of the import statement is composed of the from keyword, followed by the module name, the import keyword, and a star; for example, from random import *.
+
+
 #### Exit program
 `sys.exit()`
 
