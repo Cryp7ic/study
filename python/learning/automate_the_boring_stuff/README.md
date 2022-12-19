@@ -61,7 +61,8 @@ spam = spam + 1
 
 increment index i++ as `i += 1`
 
-the **break** statement is a shortcut to getting the program execution to break out of a **while** loop's clause early
+* The **break** statement is a shortcut to getting the program execution to break out of a **while** loop's clause early
+* The **continue** statements are used inside loops. When the program execution reaches a **continue** statement, the program execution immediately jumps back to the start of the loop and reevaluates the loop's condition. (This is also what happens when the execution reaches the end of the loop.)
 
 #### Exit program
 `sys.exit()`
