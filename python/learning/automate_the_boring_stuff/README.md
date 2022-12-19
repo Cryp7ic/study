@@ -50,7 +50,7 @@ The return value from range(4) is a list-like value that Python considers simila
 First number in range is inclusive, second number exclusive
 
 #### While loop
-You can make a block of code execute over and over again using a while statement. The code in a *while* clause will be executed as long as the while statement's condition is *True*
+You can make a block of code execute over and over again using a while statement. The code in a **while** clause will be executed as long as the while statement's condition is **True**
 
 ```
 spam = 0
@@ -61,6 +61,7 @@ spam = spam + 1
 
 increment index i++ as `i += 1`
 
+the **break** statement is a shortcut to getting the program execution to break out of a **while** loop's clause early
 
 #### Exit program
 `sys.exit()`
