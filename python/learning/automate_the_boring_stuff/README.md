@@ -64,6 +64,8 @@ increment index i++ as `i += 1`
 * The **break** statement is a shortcut to getting the program execution to break out of a **while** loop's clause early
 * The **continue** statements are used inside loops. When the program execution reaches a **continue** statement, the program execution immediately jumps back to the start of the loop and reevaluates the loop's condition. (This is also what happens when the execution reaches the end of the loop.)
 
+> **Note:** If you ever run a program that has a bug causing it to get stuck in an infinite loop, press **CTRL-C** or select **Shell > Restart Shell** from IDLE's menu. This will send a **KeyboardInterrupt** error to your program and cause it to stop immediately.
+
 #### Exit program
 `sys.exit()`
 
