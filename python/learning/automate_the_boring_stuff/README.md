@@ -36,14 +36,6 @@
 - `in, not` - is item in the list? is item not in the list?
 
 
-#### range()
-The return value from range(4) is a list-like value that Python considers similar to [0, 1, 2, 3]
-
-- `for i in range(4)` is the same as `for i in [0, 1, 2, 3]:`
-
-`i` represents the object of the list at that index. Like list[0], list [1]... `i` can be any variable name
-First number in range is inclusive, second number exclusive
-
 #### While loop
 You can make a block of code execute over and over again using a while statement. The code in a **while** clause will be executed as long as the while statement's condition is **True**
 
@@ -66,6 +58,14 @@ increment index i++ as `i += 1`
 When used in conditions, 0, 0.0, and '' are considered False. Makes code easier to read
 - ex. `while not name` is the same as `while not name != ''`
 - ex. `if numOfGuests` is the same as `if numOfGuests != 0`
+
+#### range()
+The return value from range(4) is a list-like value that Python considers similar to [0, 1, 2, 3]
+
+- `for i in range(4)` is the same as `for i in [0, 1, 2, 3]:`
+
+`i` represents the object of the list at that index. Like list[0], list [1]... `i` can be any variable name
+First number in range is inclusive, second number exclusive
 
 #### Exit program
 `sys.exit()`
