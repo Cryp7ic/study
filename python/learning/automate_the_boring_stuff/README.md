@@ -115,7 +115,7 @@ An alternative form of the import statement is composed of the from keyword, fol
 
 
 #### Exit program
-`sys.exit()`
+You can cause the program to terminate, or exit, before the last instruction by calling the `sys.exit()` function. Since this is in the *sys* module, you have to import sys before your program can use it.
 
 ## Ch 3 - Functions
 
