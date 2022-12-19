@@ -76,7 +76,9 @@ for i in range(5):
 ```
 for i in range(0,10,2):
 	print(i)
+```
 output:
+```
 0
 2
 4
