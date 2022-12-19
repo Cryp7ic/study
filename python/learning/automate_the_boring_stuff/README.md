@@ -73,6 +73,17 @@ for i in range(5):
     print('Jimmy Five Times (' + str(i) + ')')
 ```
 
+```
+for i in range(0,10,2):
+	print(i)
+output:
+0
+2
+4
+6
+8
+```
+
 > **Note:** You can use break and continue inside for loops as well. The continue statement will continue to the next value of the for loop's counter, as if the program execution has reached the end of the loop and returned to the start. You can use **continue** and **break** only inside **while** and **for** loops.
 
 #### Exit program
