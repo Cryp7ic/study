@@ -140,6 +140,10 @@ Can take multiple arguments, unlike Java
 declare global variable with global
 - i.e. `global x = 15`
 
+#### Exception Handling
+
+Errors can be handled with *try* and *except* statements. The program execution moves to the start of a following *except* clause if an error happens.
+
 ## Ch 4 - Lists
 #### Negative indexes
 First index from right to left starts at -1, -2, -3.. etc. Whereas first index from left to right starts at 0
