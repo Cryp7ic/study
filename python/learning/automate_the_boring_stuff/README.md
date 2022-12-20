@@ -133,9 +133,9 @@ Can take multiple arguments, unlike Java
 #### global
 
 * Code in the global scope, outside of all functions, cannot use any local variables.
-• However, code in a local scope can access global variables.
-• Code in a function’s local scope cannot use variables in any other local scope.
-• You can use the same name for different variables if they are in dif-ferent scopes. That is, there can be a local variable named spam and a global variable also named spam.
+* However, code in a local scope can access global variables.
+* Code in a function’s local scope cannot use variables in any other local scope.
+* You can use the same name for different variables if they are in dif-ferent scopes. That is, there can be a local variable named spam and a global variable also named spam.
 
 declare global variable with global
 - i.e. `global x = 15`
