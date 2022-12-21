@@ -3,7 +3,7 @@
   * [Ch 2 - Flow Control](#ch-2---flow-control)
   * [Ch 3 - Functions](#ch-3---functions)
   * [Ch 4 - Lists](#ch-4---lists)
-  * [Ch x - Interesting](#interesting)
+  * [Ch x - Interesting](#ch-x---interesting)
   * [Ch 5 - Dictionaries](#ch-5---dictionaries)
   * [Ch 6 - Strings](#ch-6---strings)
   * [Ch 7 - Pattern Matching with Regular Expressions](#ch-7---pattern-matching-with-regular-expressions)
