@@ -160,6 +160,18 @@ Slice is inclusive of first number, exclusive of second number
 - `spam[1:]` - index 1 to the end - ['bat', 'rat', 'elephant']
 - `spam[:]` - whole thing - ['cat', 'bat', 'rat', 'elephant']
 
+Lists can also contain other list values. The values in these lists of lists can be accessed using multiple indexes, like so:
+
+```
+>>> spam = [['cat', 'bat'], [10, 20, 30, 40, 50]]
+>>> spam[0]
+['cat', 'bat']
+>>> spam[0][1]
+'bat'
+>>> spam[1][4]
+50
+```
+
 #### len()
 same as arr.length()
 
