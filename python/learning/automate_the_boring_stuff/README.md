@@ -298,6 +298,10 @@ We can use Python’s id() function to understand this. All values in Python hav
 ```
 When Python runs id('Howdy'), it creates the 'Howdy' string in the com-puter’s memory. The numeric memory address where the string is stored is returned by the id() function. Python picks this address based on which memory bytes happen to be free on your computer at the time, so it’ll be different each time you run this code.
 
+#### Passing References
+References are particularly important for understanding how arguments get passed to functions. When a function is called, the values of the argu-ments are copied to the parameter variables
+
+
 ## Ch 5 - Dictionaries
 
 #### Dictionaries vs Lists
