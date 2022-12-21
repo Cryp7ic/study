@@ -264,6 +264,29 @@ But the main way that tuples are different from lists is that tuples, like strin
 3
 ```
 
+#### References
+As you’ve seen, variables “store” strings and integer values. However, this explanation is a simplification of what Python is actually doing. Technically, variables are storing references to the computer memory locations where the values are stored.
+```
+>>> spam = 42
+>>> cheese = spam
+>>> spam = 100
+>>> spam
+100
+>>> cheese
+42
+```
+When you assign 42 to the spam variable, you are actually creating the 42value in the computer’s memory and storing a reference to it in the spam vari-able. When you copy the value in spam and assign it to the variable cheese, you are actually copying the reference. Both the spam and cheese variables refer to the 42 value in the computer’s memory. When you later change the value in spam to 100, you’re creating a new 100 value and storing a reference to it in spam. This doesn’t affect the value in cheese. Integers are immutablevalues that don’t change; changing the spam variable is actually making it refer to a completely different value in memory.
+```
+>>> spam = [0, 1, 2, 3, 4, 5]
+>>> cheese = spam # The reference is being copied, not the list.
+>>> cheese[1] = 'Hello!' # This changes the list value.
+>>> spam
+[0, 'Hello!', 2, 3, 4, 5]
+>>> cheese # The cheese variable refers to the same list.
+[0, 'Hello!', 2, 3, 4, 5]
+```
+ The code touched only the cheese list, but it seems that both the cheese and spam lists have changed
+
 ## Ch 5 - Dictionaries
 
 #### Dictionaries vs Lists
