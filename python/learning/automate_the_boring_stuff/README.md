@@ -210,6 +210,18 @@ False
 True
 ```
 
+#### Enumerate()
+Obtain the integer index of the items in the list.
+```
+>>> supplies = ['pens', 'staplers', 'flamethrowes', 'binders']
+>>> for index, item in enumerate(supplies):
+    print('Index' + str(index)+' in supplies is: '+item)
+Index0 in supplies is: pens
+Index1 in supplies is: staplers
+Index2 in supplies is: flamethrowes
+Index3 in supplies is: binders
+```
+
 
 #### list (immutable) to tuple (mutable)
 - `tuple(['cat', 'dog', 5])` - ('cat', 'dog', 5)
