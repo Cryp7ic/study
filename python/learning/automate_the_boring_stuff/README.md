@@ -235,6 +235,17 @@ Index3 in supplies is: binders
 - `copy.deepcopy(list)` - copy a list to a new list if there are nested lists
 - `list1 = list 2` - assigning a list to a new variable just assigns a reference to the list It doesnt copy a list 
 
+#### Augmented Assignment Operators
+`spam = spam + 1` is the same as: `spam += 1`
+
+| Augmented assignment statement | Equivalent assignment statement |
+| ------------------------------ | ------------------------------- |
+| spam += 1                      | spam = spam + 1                 |
+| spam -= 1                      | spam = spam - 1                 |
+| spam *= 1                      | spam = spam * 1                 |
+| spam /= 1                      | spam = spam / 1                 |
+| spam %= 1                      | spam = spam % 1                 |
+
 ## Ch 5 - Dictionaries
 
 #### Dictionaries vs Lists
