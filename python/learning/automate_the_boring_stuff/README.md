@@ -200,6 +200,7 @@ same as `size = cat[0]`, `color = cat[1]`, and `disposition = cat[2]`
 - `list.sort()(reverse=True)`
 - `list.sort(key=sortcriteria)`
 
+## Ch x - Interesting
 #### The in and not in Operators
 You can determine whether a value is or isn’t in a list with the in and not in operators.
 ```
