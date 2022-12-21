@@ -225,7 +225,10 @@ Index2 in supplies is: flamethrowes
 Index3 in supplies is: binders
 ```
 
-#### list (immutable) to tuple (mutable)
+#### Mutable and Immutable Data Types
+A list value is a mutabledata type: it can have values added, removed, or changed. However, a string is immutable: it cannot be changed.
+
+**list (immutable) to tuple (mutable)**
 - `tuple(['cat', 'dog', 5])` - ('cat', 'dog', 5)
 - `list(('cat', 'dog', 5))` - ['cat', 'dog', 5]
 - `list('hello')` - ['h', 'e', 'l', 'l', 'o']
