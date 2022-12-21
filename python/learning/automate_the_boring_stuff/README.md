@@ -150,6 +150,9 @@ First index from right to left starts at -1, -2, -3.. etc. Whereas first index f
 - `spam = ['cat', 'bat', 'rat', 'elephant']`
 - `spam[-1]` -- gives 'elephant'
 
+```
+>>> random.choice(spam)``` - takes a random value from the list.
+
 #### Slice
 Slice is inclusive of first number, exclusive of second number
 - `spam` = ['cat', 'bat', 'rat', 'elephant']
@@ -222,12 +225,10 @@ Index2 in supplies is: flamethrowes
 Index3 in supplies is: binders
 ```
 
-
 #### list (immutable) to tuple (mutable)
 - `tuple(['cat', 'dog', 5])` - ('cat', 'dog', 5)
 - `list(('cat', 'dog', 5))` - ['cat', 'dog', 5]
 - `list('hello')` - ['h', 'e', 'l', 'l', 'o']
-
 
 #### Copying a list: 
 - `copy.copy(list)` - copy a list to a new list, must import copy and call copy from copy
