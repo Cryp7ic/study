@@ -251,6 +251,19 @@ The proper way to “mutate” a string is to use slicing and concatenation to b
 | spam /= 1                      | spam = spam / 1                 |
 | spam %= 1                      | spam = spam % 1                 |
 
+#### The Tuple Data Type
+The tuple data type is almost identical to the list data type, except in two ways. First, tuples are typed with parentheses, ( and ), instead of square brackets, [ and ].
+But the main way that tuples are different from lists is that tuples, like strings, are immutable. Tuples cannot have their values modified, appended, or removed
+```
+>>> eggs = ('hello', 42, 0.5)
+>>> eggs[0]
+'hello'
+>>> eggs[1:3]
+(42, 0.5)
+>>> len(eggs)
+3
+```
+
 ## Ch 5 - Dictionaries
 
 #### Dictionaries vs Lists
