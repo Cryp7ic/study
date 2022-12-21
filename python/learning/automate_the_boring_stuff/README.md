@@ -197,7 +197,7 @@ same as `size = cat[0]`, `color = cat[1]`, and `disposition = cat[2]`
 - `list.sort(key=sortcriteria)`
 
 #### The in and not in Operators
-You can determine whether a value is or isn’t in a list with the in and not inoperators.
+You can determine whether a value is or isn’t in a list with the in and not in operators.
 ```
 >> 'howdy' in ['hello', 'hi', 'howdy', 'heyas']
 True
