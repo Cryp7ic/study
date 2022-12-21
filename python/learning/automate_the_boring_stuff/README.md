@@ -161,7 +161,6 @@ Slice is inclusive of first number, exclusive of second number
 - `spam[:]` - whole thing - ['cat', 'bat', 'rat', 'elephant']
 
 #### Lists in a List
-
 Lists can also contain other list values. The values in these lists of lists can be accessed using multiple indexes, like so:
 
 ```
@@ -196,6 +195,20 @@ same as `size = cat[0]`, `color = cat[1]`, and `disposition = cat[2]`
 - `list.sort()`
 - `list.sort()(reverse=True)`
 - `list.sort(key=sortcriteria)`
+
+#### The in and not in Operators
+You can determine whether a value is or isn’t in a list with the in and not inoperators.
+```
+>> 'howdy' in ['hello', 'hi', 'howdy', 'heyas']
+True
+>>> spam = ['hello', 'hi', 'howdy', 'heyas']
+>>> 'cat' in spam
+False
+>>> 'howdy' not in spam
+False
+>>> 'cat' not in spam
+True
+```
 
 
 #### list (immutable) to tuple (mutable)
