@@ -228,6 +228,8 @@ Index3 in supplies is: binders
 #### Mutable and Immutable Data Types
 A list value is a mutable data type: it can have values added, removed, or changed. However, a string is immutable: it cannot be changed.
 
+The proper way to “mutate” a string is to use slicing and concatenation to build a new string by copying from parts of the old string
+
 **list (immutable) to tuple (mutable)**
 - `tuple(['cat', 'dog', 5])` - ('cat', 'dog', 5)
 - `list(('cat', 'dog', 5))` - ['cat', 'dog', 5]
