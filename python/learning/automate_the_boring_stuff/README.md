@@ -150,8 +150,8 @@ First index from right to left starts at -1, -2, -3.. etc. Whereas first index f
 - `spam = ['cat', 'bat', 'rat', 'elephant']`
 - `spam[-1]` -- gives 'elephant'
 
-```
->>> random.choice(spam)``` - takes a random value from the list.
+
+`>>> random.choice(spam)` - takes a random value from the list.
 
 #### Slice
 Slice is inclusive of first number, exclusive of second number
