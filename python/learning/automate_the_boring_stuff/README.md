@@ -172,6 +172,8 @@ Lists can also contain other list values. The values in these lists of lists can
 50
 ```
 
+The first index dictates which list value to use, and the second indicates the value within the list value
+
 #### len()
 same as arr.length()
 
