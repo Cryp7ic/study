@@ -160,6 +160,8 @@ Slice is inclusive of first number, exclusive of second number
 - `spam[1:]` - index 1 to the end - ['bat', 'rat', 'elephant']
 - `spam[:]` - whole thing - ['cat', 'bat', 'rat', 'elephant']
 
+#### Lists in a List
+
 Lists can also contain other list values. The values in these lists of lists can be accessed using multiple indexes, like so:
 
 ```
