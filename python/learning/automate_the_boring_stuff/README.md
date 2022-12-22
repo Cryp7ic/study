@@ -299,6 +299,9 @@ When Python runs id('Howdy'), it creates the 'Howdy' string in the com-puter’s
 #### Passing References
 References are particularly important for understanding how arguments get passed to functions. When a function is called, the values of the argu-ments are copied to the parameter variables
 
+#### The copy Module’s copy() and deepcopy() Functions
+`copy.copy(spam)` creates a second list that can be modified independently of the first.
+If the list you need to copy contains lists, then use the `copy.deepcopy()` function instead of `copy.copy()`. The `deepcopy()` function will copy these inner lists as well
 
 ## Ch 5 - Dictionaries
 
