@@ -287,9 +287,7 @@ When you assign 42 to the spam variable, you are actually creating the 42value i
 >>> cheese # The cheese variable refers to the same list.
 [0, 'Hello!', 2, 3, 4, 5]
 ```
- The code touched only the cheese list, but it seems that both the cheese and spam lists have changed
-
-lists in boxes aren’t exactly accurate, because list variables don’t actually contain lists—they contain referencesto lists. (These references will have ID numbers that Python uses inter-nally, but you can ignore them.)
+(These references will have ID numbers that Python uses inter-nally, but you can ignore them.)
 
 #### Identity and the id() Function
 We can use Python’s id() function to understand this. All values in Python have a unique identity that can be obtained with the id() function.
