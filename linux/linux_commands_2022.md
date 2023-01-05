@@ -31,6 +31,7 @@
 
 
 ## Basic administration commands
+
 Reboot the system
 
 ```sh
@@ -59,6 +60,12 @@ Quickly find a file or directory that has been cached
 
 ```sh
 locate <filename>
+```
+
+Journal logs:
+
+```sh
+$ journalctl -p 3 -xb
 ```
 
 ## Users
@@ -603,6 +610,7 @@ nano /etc/fstab
 
 
 ## Crontab
+
 ```sh
 crontab <options>
 * * * * * <command>
